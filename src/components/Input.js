@@ -8,7 +8,7 @@ function Input({ deafultCurrency }) {
           </ul>
         )
       })}
-      <input type="number" />
+      <input type="number" placeholder="0" />
     </div>
   )
 }
