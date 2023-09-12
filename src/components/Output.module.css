@@ -1,0 +1,45 @@
+.ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  cursor: pointer;
+  font-size: 20px;
+  height: 35px;
+  width: 1000px;
+}
+
+.ul li {
+  border-radius: 5%;
+}
+
+.input {
+  text-align: center;
+  height: 40px;
+  width: 400px;
+  font-size: 20px;
+}
+
+.btn {
+  margin-left: 10px;
+  cursor: pointer;
+  height: 50px;
+  width: 170px;
+  font-size: 15px;
+  border-radius: 5%;
+}
+
+.active {
+  background-color: #46eb0f;
+  color: black;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn {
+  margin-left: 10px;
+  cursor: pointer;
+  height: 50px;
+  width: 170px;
+  font-size: 15px;
+  border-radius: 5%;
+}
